@@ -1,0 +1,133 @@
+1- Bir Java programı yazınız. Bu program, sabit bir sayının karesini ve küpünü hesaplayarak ekrana yazdıracaktır.
+ Programın aşağıdaki adımları takip etmesi gerekmektedir:
+
+1. Sabit bir sayıyı tanımlayınız (örneğin, `int sayi = 4;`).
+2. Bu sayının karesini hesaplayınız.
+3. Bu sayının küpünü hesaplayınız.
+4. Sonuçları ekrana yazdırınız.
+
+Örnek Çıktı:
+
+Sabit sayı: 4
+Sayının karesi: 16
+Sayının küpü: 64
+
+Bu işlevi yerine getiren Java kodunu yazınız.
+
+########################################################
+
+2- Aşağıdaki Java programında System.out.print ve System.out.println kullanarak adınızı, yaşınızı, ve şehrinizi ekrana yazdırınız.
+Programın çıktılarını sırasıyla System.out.print ve System.out.println kullanarak yazdırınız, ancak özel karakterler (\t ve \n) kullanmadan yapınız.
+Not: Ali ve 23 değerlerini değişkene atıyarak yapınız.
+
+İstenen Çıktı:
+
+Adım: Ali Yaşım: 23
+23
+Şehrim: İstanbul
+Ali
+
+Bu işlevi yerine getiren Java kodunu yazınız.
+
+########################################################
+
+3- Bir Java programı yazınız. Bu program, Ali'nin adını, yaşını, boyunu ve cebindeki para miktarını birleştirip ekrana yazdıracaktır. Programın şu adımları takip etmesi gerekmektedir:
+
+1. Ali'nin adını bir `String` değişkeni olarak tanımlayınız (örneğin, `String ad = "Ali";`).
+2. Ali'nin yaşını bir `int` değişkeni olarak tanımlayınız (örneğin, `int yas = 23;`).
+3. Ali'nin boyunu bir `double` değişkeni olarak tanımlayınız (örneğin, `double boy = 1.86;`).
+4. Ali'nin cebindeki para miktarını bir `double` değişkeni olarak tanımlayınız (örneğin, `double para = 25680.0;`).
+5. Bu bilgileri birleştirerek ekrana yazdırınız.
+
+Örnek Çıktı:
+
+Benim adım Ali, yaşım 23, boyum 1.86 metre ve cebimde 25680.0 TL para var.
+
+Bu işlevi yerine getiren Java kodunu yazınız.
+
+########################################################
+
+4- Aşağıdaki açıklamaları dikkate alarak, özel karakterlerin kullanımıyla ilgili bir Java programı yazınız. Programda, Ali'nin adını, yaşını, boyunu ve banka hesabındaki para miktarını ekrana yazdırınız.
+Her bilgi satırını yeni bir satıra geçecek şekilde ve her bilgi arasında bir tab boşluğu olacak şekilde yazdırınız.
+
+Açıklamalar:
+- `\n`: Yeni satır. Sonraki satırın başına gider.
+- `\t`: Tab tuşu. Sonraki tab sekmesine kadar imleci götürür.
+
+İstenen Çıktı:
+
+Benim adım Ali.    Yaşım: 23
+Boyum: 1.86 metre.    Banka hesabımda 41561.51 TL para var.
+
+
+Bu işlevi yerine getiren Java kodunu yazınız.
+
+########################################################
+
+5- Java'da bir değişkenin değerini başka bir değişkene atamanın nasıl yapıldığını açıklayan bir program yazınız.
+`int a = 10;` ve `int b;` başlangıç değerlerini kullanın:
+
+########################################################
+
+6- Bir arabanın year, brand, model, color, price adında beş değişkenini tanımlayın.
+
+Bu değişkenlere değer atayın.
+
+Tüm değerleri konsolda aşağıdaki formatta yazdırın:
+
+2022 Toyota Corolla Beyaz 1200000 TRY
+
+########################################################
+
+*7- Java'da aritmetik operatörleri bir sayının 50 fazlasını aynı değere atayıp hesaplayan bir program yazın.
+
+Not: Java'da 'int' bir değişken tanımlayalım. Sayı `6` olsun. Bu değerin 50 fazlasını değişkene geri atayan java kodunu yazınız.
+İpucu: +=
+
+########################################################
+
+8- Java'da iki tamsayıyı toplamak, çıkarmak, çarpmak, bölmek ve bölümünden kalanını hesaplayan için bir program yazınız. Sayılar `15` ve `2` olsun:
+
+########################################################
+
+9- Ali ve Veli, marketten alışveriş yaparken aldıkları ürünlerin fiyatlarını hesaplamak istiyorlar.
+Ali, bir ürünün fiyatını 123.456 TL olarak görüyor. Ancak Ali, ondalık kısmı görmek istemiyor ve bu fiyatı tam sayı olarak dönüştürmek istiyor.
+Veli ise, kendi birikimlerini tam sayı olarak hesapladıktan sonra byte cinsine dönüştürmek istiyor.
+Son olarak, Ali ve Veli aldıkları ürünlerin toplam fiyatını hesaplamak istiyorlar.
+
+Ali ve Veli'nin bu dönüşümleri yaparak toplam fiyatı hesaplayan bir Java programı yazınız.
+
+########################################################
+
+10- Ali ve Veli, bir akşam yemeği için dışarı çıkmayı planlıyorlar. Ali'nin yemeğe çıkabilmesi için iki şart var:
+hava güzel olmalı ve Ali'nin yeterli parası olmalı.
+Havanın güzel olup olmadığını boolean havaGuzel değişkeni ile,
+Ali'nin yeterli parası olup olmadığını ise boolean yeterliPara değişkeni ile temsil ediyoruz.
+
+Java'da bu iki şartın sağlanıp sağlanmadığını kontrol eden ve sonucu ekrana yazdıran bir program yazınız.
+
+########################################################
+
+11- Aşağıdaki Java programında, mantıksal ve ilişkisel operatörleri kullanarak belirli koşulları kontrol ediniz ve sonuçları ekrana yazdırınız.
+Programda `if`, `else`, `for`, `while` gibi kontrol yapıları kullanmadan ifadelerin doğruluğunu ve mantıksal işlemleri gerçekleştiriniz.
+
+Görevler:
+1. Üç adet tam sayı belirleyiniz: `a = 5`, `b = 8`, `c = 12`.
+2. Aşağıdaki ifadelerin doğruluğunu kontrol ediniz ve sonuçları ekrana yazdırınız:
+    - `a`, `b` ve `c`'nin toplamı 25'e eşit mi?
+    - `a` ve `b`'nin toplamı `c`'den büyük mü?
+    - `a`'nın karesi `b`'den küçük mü?
+    - `b`, `a` ve `c` arasında ortanca değer mi?
+    - `c`, `a` ve `b`'nin toplamından küçük mü?
+
+3. Mantıksal ve ilişkisel operatörleri kullanarak ifadelerin doğruluğunu kontrol ediniz ve sonuçları ekrana yazdırınız.
+
+İstenen Çıktı:
+
+a, b ve c'nin toplamı 25'e eşit mi? true
+a ve b'nin toplamı c'den büyük mü? true
+a'nın karesi b'den küçük mü? true
+b, a ve c arasında ortanca değer mi? true
+c, a ve b'nin toplamından küçük mü? false
+
+Bu işlevi yerine getiren Java kodunu yazınız.
