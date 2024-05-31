@@ -1,0 +1,199 @@
+1. Kullanıcıdan bir tam sayı girmesini isteyen ve eğer sayı negatif ise "Sayı negatiftir" mesajını yazdıran programı yazınız.
+
+   Örnek Girdi:
+   Bir tam sayı giriniz: -5
+
+   Örnek Çıktı:
+   Sayı negatiftir
+
+##########################################################################################
+
+2. Kullanıcıdan bir kelime girmesini isteyen ve kelimenin uzunluğunu ekrana yazdıran programı yazınız.
+
+   Örnek Girdi:
+   Bir kelime giriniz: merhaba
+
+   Örnek Çıktı:
+   Kelimenin uzunluğu: 7
+
+##########################################################################################
+
+3. Kullanıcıdan iki tam sayı girmesini isteyen ve bu sayıların çarpımını ekrana yazdıran programı yazınız.
+
+   Örnek Girdi:
+   İlk sayıyı giriniz: 4
+   İkinci sayıyı giriniz: 5
+
+   Örnek Çıktı:
+   Sayıların çarpımı: 20
+
+##########################################################################################
+
+4. Kullanıcıdan bir üçgenin kenar uzunluklarını girmesini isteyen ve bu üçgenin eşkenar olup olmadığını belirleyen programı yazınız.
+
+   Örnek Girdi:
+   Birinci kenar uzunluğunu giriniz: 5
+   İkinci kenar uzunluğunu giriniz: 5
+   Üçüncü kenar uzunluğunu giriniz: 5
+
+   Örnek Çıktı:
+   Bu üçgen eşkenar üçgendir
+
+##########################################################################################
+
+5. Bir üniversite, öğrencilerin aldığı derslere göre notlarını harf notuna çeviren bir Java programı yazmanızı istemektedir.
+Program, her bir öğrencinin notunu okuyacak ve aşağıdaki kurallara göre harf notunu belirleyecektir:
+	90-100: A
+	80-89: B
+	70-79: C
+	60-69: D
+	0-59: F
+
+	Örnek Girdi:
+	Bir puan giriniz: 85
+
+	Örnek Çıktı:
+	Not: B
+
+##########################################################################################
+
+6. Kullanıcıdan bir cümle girmesini isteyen ve eğer cümlenin uzunluğu 50'den küçükse "Kısa bir cümle" mesajını yazdıran programı yazınız.
+
+   Örnek Girdi:
+   Bir cümle giriniz: Merhaba, nasılsınız?
+
+   Örnek Çıktı:
+   Kısa bir cümle
+
+##########################################################################################
+
+7. Kullanıcıdan bir tam sayı girmesini isteyen ve bu sayının pozitif, negatif veya sıfır olduğunu belirten programı yazınız.
+
+   Örnek Girdi:
+   Bir tam sayı giriniz: 0
+
+   Örnek Çıktı:
+   Sayı sıfırdır
+
+##########################################################################################
+
+8. Kullanıcıdan bir tam sayı girmesini isteyen ve bu sayının 3 ve 5 ile bölünebilir olup olmadığını belirten programı yazınız.
+
+   Örnek Girdi:
+   Bir tam sayı giriniz: 15
+
+
+   Örnek Çıktı:
+   Sayı hem 3 hem de 5 ile bölünebilir
+
+##########################################################################################
+
+9.  'abc' metinindeki ASCII değerlerini ekrana yazdıran programı yazınız.
+
+    Örnek Çıktı:
+	Karakter: a, ASCII Değeri: 97
+	Karakter: b, ASCII Değeri: 98
+	Karakter: c, ASCII Değeri: 99
+
+##########################################################################################
+
+10. Girilen iki cümleden uzun olanı bulan bir program yazın.
+
+	Örnek Girdi:
+	Birinci cümleyi giriniz: Merhaba Dünya
+	İkinci cümleyi giriniz: Java programlama dili
+
+	Örnek Çıktı:
+	Uzun olan cümle: Java programlama dili
+
+##########################################################################################
+
+11. Girilen bir cümlenin belirli bir kelime ile başlayıp başlamadığını kontrol eden bir program yazın.
+
+	Örnek Girdi:
+	Bir cümle giriniz: Java programlama dili
+	Kontrol edilecek kelime: Java
+
+	Örnek Çıktı:
+	Cümle 'Java' ile başlıyor.
+
+##########################################################################################
+
+12. Kullanıcıdan bir ay numarası girmesini isteyen ve bu ayın yaz mevsiminde olup olmadığını belirleyen programı yazınız.
+Not: Switch-case kullanarak yazınız.
+
+	Örnek Girdi:
+	Bir ay numarası giriniz (1-12): 7
+
+	Örnek Çıktı:
+	Yaz mevsimindesiniz.
+
+##########################################################################################
+
+13. Kullanıcıdan bir metin ve bir karakter girmesini isteyen ve metindeki karakterin pozisyonunu bulan bir program yazınız.
+
+	Örnek Girdi:
+	Bir metin giriniz: Merhaba Dünya
+	Aranacak karakter: a
+
+	Örnek Çıktı:
+	Karakter 'a' 4. pozisyonda bulunuyor.
+
+##########################################################################################
+
+14. Kullanıcıdan iki kelime girmesini isteyen ve bu kelimelerin eşit olup olmadığını kontrol eden programı yazınız.
+
+	Örnek Girdi:
+	Birinci kelimeyi giriniz: Merhaba
+	İkinci kelimeyi giriniz: Merhaba
+
+	Örnek Çıktı:
+	Kelimeler eşit.
+
+##########################################################################################
+
+15. Girilen bir yılın artık yıl olup olmadığını belirleyen bir Java programı yazınız. Programınızın çıktısı, yılın artık yıl olup olmadığını doğru bir şekilde göstermelidir.
+
+   Örnek Girdi:
+   Bir yıl giriniz: 2020
+
+   Örnek Çıktı:
+   2020 bir artık yıldır.
+
+##########################################################################################
+
+16. Ali, yazdığı romanın bazı bölümlerinde "kötü" kelimesini "iyi" ile ve '.' karakterini '!' karakteri ile değiştirmek istemektedir.
+Aşağıda verilen metin üzerinde bu değişiklikleri yapacak bir Java programı yazınız:
+Girdi metni: "Bu kötü bir hikaye. Ancak, Ali'nin çabalarıyla daha iyi olabilir."
+
+   Örnek Girdi:
+   Bu kötü bir hikaye. Ancak, Ali'nin çabalarıyla daha iyi olabilir.
+
+   Örnek Çıktı:
+   Bu iyi bir hikaye! Ancak, Ali'nin çabalarıyla daha iyi olabilir!
+
+##########################################################################################
+
+17. Bir tam sayının karesini ve küpünü hesaplayan bir Java programı yazınız. Program, girdiyi almalı ve çıktı olarak karesini ve küpünü göstermelidir.
+
+   Örnek Girdi:
+   Bir tam sayı giriniz: 3
+
+   Örnek Çıktı:
+   Karesi: 9
+   Küpü: 27
+
+##########################################################################################
+
+18. Bir Astronom, gezegenleri sınıflandırmak için bir program geliştirmek istiyor. Kullanıcıdan girilen gezegen adıyla gezegenin iç gezegen mi yoksa dış gezegen mi olduğunu belirlemesi gerekiyor. Astronomun bu programı yazmasına yardımcı olun.
+	Not1: İÇ GEZEGENLER --> Merkür, Venüs, Dünya ve Mars.
+		  DIŞ GEZEGENLER --> Jüpiter, Satürn, Uranüs ve Neptün
+	Not2: Switch-case kullanarak yazınız.
+
+    Örnek Girdi:
+    Bir gezegen adı giriniz: Dünya
+
+    Örnek Çıktı:
+    İç gezegen
+
+##########################################################################################
