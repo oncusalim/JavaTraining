@@ -8,7 +8,7 @@ public class Task6 {
 
         System.out.print("Bir cümle giriniz: ");
         String str = scanner.nextLine();
-
+        //int length = str.length();
         if (str.length() < 50) {
             System.out.println("Kısa bir cümle");
         } else {

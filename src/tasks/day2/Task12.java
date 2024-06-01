@@ -10,7 +10,9 @@ public class Task12 {
         int ayNumarasi = scanner.nextInt();
 
             switch (ayNumarasi) {
-                case 6: case 7: case 8:
+                case 6:
+                case 7:
+                case 8:
                     System.out.println("Yaz mevsimindesiniz.");
                     break;
                 case 1: case 2: case 3: case 4: case 5: case 9: case 10: case 11: case 12:

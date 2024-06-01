@@ -5,7 +5,7 @@ public class Task16 {
         String ifade = "Bu kötü bir hikaye. Ancak, Ali'nin çabalarıyla daha iyi olabilir.";
         ifade = ifade.replace("kötü","iyi");
         ifade = ifade.replace('.','!');
-        // ifade = ifade.replace("kötü","iyi").replace('.','!');    ---> bu şekilde tek satırda yazılabilir.
+        //ifade = ifade.replace("kötü","iyi").replace('.','!');    ---> bu şekilde tek satırda yazılabilir.
         System.out.println(ifade);
     }
 }

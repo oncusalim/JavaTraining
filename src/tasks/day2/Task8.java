@@ -11,7 +11,7 @@ public class Task8 {
 
         if ((sayi % 3 == 0) && (sayi % 5 == 0)) {
             System.out.println("Sayı hem 3 hem de 5 ile bölünebilir");
-        } else if (sayi % 3 == 0) {
+        } else if (sayi % 3 == 0)  {
             System.out.println("Sayı sadece 3 ile bölünebilir");
         } else if (sayi % 5 == 0) {
             System.out.println("Sayı sadece 5 ile bölünebilir");
