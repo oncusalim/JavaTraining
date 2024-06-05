@@ -1,27 +1,28 @@
-package day4;
+package tasks.day3;
 
-public class PalindromicSum {
+public class Task14 {
     public static void main(String[] args) {
         int start = 1;
         int end = 1000;
-        int sum = 0;
+
+        System.out.print(start + " ile " + end + " arasındaki Armstrong sayıları: ");
 
         for (int i = start; i <= end; i++) {
             int number = i;
             int original = number;
-            int reversed = 0;
+            int sum = 0;
+            int n = String.valueOf(number).length();
 
             while (number != 0) {
                 int digit = number % 10;
-                reversed = reversed * 10 + digit;
+                sum += Math.pow(digit, n);
                 number /= 10;
             }
 
-            if (original == reversed) {
-                sum += i;
+            if (sum == original) {
+                System.out.print(i + " ");
             }
         }
-
-        System.out.println(start + " ile " + end + " arasındaki palindromik sayıların toplamı: " + sum);
     }
 }
+

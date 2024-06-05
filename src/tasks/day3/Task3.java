@@ -1,20 +1,24 @@
-package day4;
+package tasks.day3;
 
 import java.util.Scanner;
 
-public class DigitSumForLoop {
+public class Task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir sayı girin: ");
         int number = scanner.nextInt();
         scanner.close();
 
-        int sum = 0;
+        int a = 0, b = 1;
+        int i = 1;
 
-        for (int temp = number; temp != 0; temp /= 10) {
-            sum += temp % 10;
+        while (i <= number) {
+            System.out.print(a + " ");
+            int sum = a + b;
+            a = b;
+            b = sum;
+            i++;
         }
-
-        System.out.println("Basamakların toplamı: " + sum);
     }
 }
+

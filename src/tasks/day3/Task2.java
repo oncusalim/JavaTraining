@@ -1,6 +1,6 @@
-package day4;
+package tasks.day3;
 
-public class Factorial {
+public class Task2 {
     public static void main(String[] args) {
         int number = 5; // Hesaplanacak sayı
         int factorial = 1;

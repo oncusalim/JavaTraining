@@ -1,8 +1,8 @@
-package day4;
+package tasks.day3;
 
 import java.util.Scanner;
 
-public class PalindromeCheck {
+public class Task15 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir kelime girin: ");

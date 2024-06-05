@@ -1,0 +1,65 @@
+1. Bir mesajı 10 kez ekrana yazdıran bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+2. Bir sayının faktöriyelini for döngüsü kullanarak hesaplayan bir Java programı yazın. Örneğin, 5'in faktöriyeli 120'dir.
+
+---------------------------------------------------------------------------------
+
+3. Kullanıcıdan alınan bir sayıya kadar Fibonacci serisini while döngüsü kullanarak yazdıran bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+4. Bir sayının asal olup olmadığını for döngüsü kullanarak kontrol eden bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+5. Bir mesajı do-while döngüsü kullanarak ekrana 5 kez yazdıran bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+6. 1'den 100'e kadar olan sayıları for döngüsü kullanarak ekrana yazdıran bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+7. 1'den 100'e kadar olan sayıları while döngüsü kullanarak ekrana yazdıran bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+8. Bir sayının basamaklarını toplayan ve while döngüsü kullanan bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+9. Kullanıcıdan alınan sayılarla toplama işlemi yapan ve kullanıcı 0 girene kadar devam eden do-while döngüsü kullanan bir Java programı yazın.
+
+
+---------------------------------------------------------------------------------
+
+10. For döngüsü kullanarak bir sayının basamaklarını toplayan bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+11. For döngüsü kullanarak bir String ifadede tekrar eden karakterleri bulan bir Java programı yazın.
+
+---------------------------------------------------------------------------------
+
+12. Bir sayının asal çarpanlarını bulan bir Java programı yazın.
+Kullanıcının girdiği bir sayının asal çarpanlarını ve bu çarpanların sayısını ekrana yazdırın.
+
+---------------------------------------------------------------------------------
+
+13. Bir aralık belirleyerek (örneğin 1 ile 1000 arası) bu aralıktaki palindromik sayıların toplamını hesaplayan bir Java programı yazın.
+Palindromik sayılar, aynı şekilde okunan sayılardır (örneğin 121, 131).
+
+---------------------------------------------------------------------------------
+
+14. Belirli bir aralıktaki tüm Armstrong sayıları bulan bir Java programı yazın. Bir sayının Armstrong sayısı olup olmadığını kontrol eden bir algoritma yazın.
+Armstrong sayısı, n basamaklı bir sayının, basamaklarının n’inci kuvvetleri toplamına eşit olduğu sayıdır (örneğin 153 = 1³ + 5³ + 3³).
+
+---------------------------------------------------------------------------------
+
+15. Verilen bir string kelimenin  palindromik olup olmadığını bulan bir Java programı yazın. Palindromik ileri ve geri okunduğunda aynı olan kelimedir. (Örnek:  kayak)
+
+---------------------------------------------------------------------------------
+
+16. Verilen bir string içerisindeki benzersiz karakterleri bulan ve bunları ekrana yazdıran bir Java programı yazın. Benzersiz karakterler, string içerisinde sadece bir kez geçen karakterlerdir.

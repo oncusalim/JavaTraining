@@ -1,24 +1,22 @@
-package day4;
+package tasks.day3;
 
 import java.util.Scanner;
 
-public class FibonacciSeries {
+public class Task8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir sayı girin: ");
         int number = scanner.nextInt();
         scanner.close();
 
-        int a = 0, b = 1;
-        int i = 1;
+        int sum = 0;
 
-        while (i <= number) {
-            System.out.print(a + " ");
-            int sum = a + b;
-            a = b;
-            b = sum;
-            i++;
+        while (number != 0) {
+            sum += number % 10;
+            number /= 10;
         }
+
+        System.out.println("Basamakların toplamı: " + sum);
     }
 }
 

@@ -1,8 +1,8 @@
-package day4;
+package tasks.day3;
 
 import java.util.Scanner;
 
-public class SumUntilZero {
+public class Task9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int sum = 0;

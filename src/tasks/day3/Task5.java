@@ -1,6 +1,6 @@
-package day4;
+package tasks.day3;
 
-public class PrintMessage5Times {
+public class Task5 {
     public static void main(String[] args) {
         int count = 0;
 

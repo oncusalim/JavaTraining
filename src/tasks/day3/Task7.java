@@ -1,10 +1,12 @@
-package day4;
+package tasks.day3;
 
-public class PrintNumbersForLoop {
+public class Task7 {
     public static void main(String[] args) {
+        int i = 1;
 
-        for (int i = 1; i <= 100; i++) {
+        while (i <= 100) {
             System.out.println(i + " ");
+            i++;
         }
     }
 }

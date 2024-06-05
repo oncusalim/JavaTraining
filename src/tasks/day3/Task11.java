@@ -1,8 +1,8 @@
-package day4;
+package tasks.day3;
 
 import java.util.Scanner;
 
-public class RepeatingCharacters {
+public class Task11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Bir kelime girin: ");
