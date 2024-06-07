@@ -1,0 +1,47 @@
+
+1) Bir dizi oluşturun ve bu dizinin elemanlarını foreach döngüsü kullanarak ekrana yazdırın.
+
+2) Bir dizi oluşturun ve bu dizinin elemanlarını ters sırayla ekrana yazdırın.
+
+3) Bir diziyi parametre olarak alan ve dizideki en büyük elemanı bulan bir metod yazın.
+
+4) Bir diziyi parametre olarak alan ve dizideki en küçük elemanı bulan bir metod yazın.
+
+5) Bir diziyi parametre olarak alan ve dizideki elemanların toplamını bulan bir metod yazın.
+
+6) Bir diziyi parametre olarak alan ve dizideki elemanların ortalamasını bulan bir metod yazın.
+
+7) Bir dizinin elemanlarını küçükten büyüğe sıralayan bir metod yazın.
+
+8) Bir dizinin elemanlarını büyükten küçüğe sıralayan bir metod yazın.
+
+9) Bir dizide belirli bir değere sahip kaç adet eleman olduğunu bulan bir metod yazın.
+
+10) Bir dizide belirli bir değeri arayan ve bulunduğu indeksi döndüren bir metod yazın.
+
+11) Bir dizinin elemanlarını kopyalayan ve yeni bir dizi oluşturan bir metod yazın.
+
+12) Bir dizinin belirli bir aralıktaki elemanlarını kopyalayan ve yeni bir dizi oluşturan bir metod yazın.
+
+13) Bir dizideki çift sayıları bulan ve bunları başka bir diziye ekleyen bir metod yazın.
+
+14) Bir dizideki tek sayıları bulan ve bunları başka bir diziye ekleyen bir metod yazın.
+
+
+15) Bir dizideki elemanları birbirine toplayan ve sonucu döndüren bir metod yazın.
+
+16) İki diziyi birleştiren ve yeni bir dizi oluşturan bir metod yazın.
+(ipucu: method iki adet parametre (int[] dizi1, int[] dizi2) alıyor)
+
+17) Bir dizide belirli bir elemanın bulunup bulunmadığını kontrol eden bir metod yazın.
+(ipucu method true veya false olarak değer dönmeli)
+
+18) Bir dizinin belirli bir elemanını bulup güncelleyen bir metod yazın.
+(ipucu: method ayrıca eleman dizide varsa ve güncelleme gerçekleşirse true, yoksa false dönsün)
+
+19) Bir dizide belirli bir elemanı silen ve yeni bir dizi döndüren bir metod yazın.
+(ipucu: yeni dizinin boyutu bir azalmalı)
+
+20) String bir ifadenin tüm karakterlerini bir diziye karakter karakter aktaran bir method yazın.
+Method parametre olarak String almalı, return olarak dizi dönmeli.
+
